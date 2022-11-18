@@ -1,0 +1,262 @@
+.col-3 {
+  padding-right: none;
+}
+
+.side-panel {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
+  color: white;
+}
+
+.weather-container {
+  background-color: white;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+  margin: 140px auto;
+  width: 100%;
+}
+
+.search {
+  margin: 20px;
+  padding: 0px 0px 3px 10px;
+  font-size: 15px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: white;
+  border-radius: 40px;
+}
+
+.search:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 20px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.search-city {
+  width: 80%;
+  padding: 5px;
+  height: 30px;
+  outline: none;
+  color: #4e20867e;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.search-city:focus {
+  color: #5877e2;
+}
+
+.search-city:active {
+  background: none;
+}
+
+.search-button {
+  width: 5px;
+  height: 30px;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: #7d7d7d;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  position: relative;
+  right: 10px;
+}
+.geolocation-button {
+  width: 5px;
+  height: 30px;
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  text-align: left;
+  color: #7d7d7d;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  position: relative;
+  right: 12px;
+}
+
+h1.current-city {
+  text-align: center;
+  font-weight: 700;
+  padding-top: 0px;
+  position: relative;
+  bottom: 20px;
+  font-size: 30px;
+}
+
+.current-weather {
+  margin: 17px 50px;
+  position: relative;
+  bottom: 1px;
+  max-width: 220px;
+  border-radius: 100px;
+  vertical-align: middle;
+  color: #405291;
+  background: white;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.date {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 175%;
+  padding: 0;
+  margin: 0;
+}
+
+p.weather-description {
+  font-size: small;
+  text-align: center;
+  padding: 0;
+}
+h4 {
+  text-align: center;
+}
+
+.current-temperature {
+  font-size: 90px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.toggle-unit {
+  font-size: 15px;
+  font-weight: 100;
+  position: relative;
+  bottom: 35px;
+}
+
+#celcius {
+  text-decoration: none;
+  color: grey;
+}
+#celcius:hover,
+#farenheight:hover,
+.search-button:hover,
+.geolocation-button:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+#farenheight {
+  text-decoration: none;
+  color: grey;
+}
+
+#this-week {
+  margin-top: 12px;
+  margin-left: 60px;
+  font-size: 28px;
+  color: #576ee0;
+}
+
+#todays-highlights {
+  margin-left: 60px;
+  font-size: 28px;
+  color: #5a99eb;
+}
+
+.this-week-section {
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.todays-highlight-section {
+  margin: 20px;
+}
+
+.humidity,
+.pressure,
+.windSpeed,
+.feelsLike {
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+}
+
+.pressure,
+.feelsLike {
+  position: relative;
+  right: 13px;
+}
+
+.low-temp,
+.sunrise {
+  padding-right: 0px;
+  text-align: center;
+  border: none;
+}
+
+.top-temp,
+.sunset {
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  right: 10px;
+  text-align: center;
+}
+
+.humidity-icon,
+.pressure-icon,
+.windspeed-icon,
+.feelslike-icon {
+  color: rgba(123, 121, 121, 0.692);
+  padding: 20px;
+}
+.lowtemp-icon {
+  color: rgba(106, 177, 173, 0.621);
+}
+.toptemp-icon {
+  color: rgba(230, 128, 50, 0.621);
+}
+.card {
+  margin-bottom: 10px;
+}
+
+.resultfont {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.mintemp {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  border-radius: 10px;
+  width: 150px;
+}
+
+.maxtemp {
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 207, 84) 11.2%,
+    rgb(255, 158, 27) 91.1%
+  );
+  border-radius: 10px;
+  width: 140px;
+}
+
+.card {
+  border: none;
+}
